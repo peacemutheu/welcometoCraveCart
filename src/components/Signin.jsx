@@ -38,6 +38,8 @@ const Signin =()=>{
                 }
             
         } catch (error) {
+            setError(error.message)
+            setLoading("")
             
         }
     }

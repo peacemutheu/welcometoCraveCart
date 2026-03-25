@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { use, useState } from 'react'
+import React, {  useState } from 'react'
 
 const Addproduct = () => {
     // declare our states here 
@@ -28,6 +28,8 @@ const Addproduct = () => {
             setSucces(response.data.message)
             setLoading("")
         } catch (error) {
+            setError(error.message)
+            setLoading("")
             
         }
     }
