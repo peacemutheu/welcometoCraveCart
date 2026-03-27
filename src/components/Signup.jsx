@@ -26,7 +26,7 @@ const Signup = () => {
 
 
     try {
-        const response= await axios.post("http://mutheuhiggs.alwaysdata.net/api/signup", formdata)
+        const response= await axios.post("https://mutheuhiggs.alwaysdata.net/api/signup", formdata)
         setSuccess(response.data.message)
         setLoading("")
     } catch (error) {

@@ -24,7 +24,7 @@ const Addproduct = () => {
         formdata.append("product_photo",product_photo)
 
         try {
-            const response =  await axios.post("http://mutheuhiggs.alwaysdata.net/api/addproduct",formdata )
+            const response =  await axios.post("https://mutheuhiggs.alwaysdata.net/api/addproduct",formdata )
             setSucces(response.data.message)
             setLoading("")
         } catch (error) {

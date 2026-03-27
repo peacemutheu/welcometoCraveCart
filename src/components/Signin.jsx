@@ -21,7 +21,7 @@ const Signin =()=>{
         formdata.append("email", email)
         formdata.append("password", password)
         try {
-            const response = await axios.post ("http://mutheuhiggs.alwaysdata.net/api/signin" , formdata)
+            const response = await axios.post ("https://mutheuhiggs.alwaysdata.net/api/signin" , formdata)
             setSuccess(response.data.message)
             setLoading("")
             // if login /signin is successful we save user to localstorage 
