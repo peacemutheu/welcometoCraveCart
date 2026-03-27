@@ -31,7 +31,7 @@ const Footer = () => {
                     <img src="images (copy)/x.png" alt="Twitter"/>
                   </a>
                 </a>
-                <p>our social media accounts helps you to teach us from wherever you are. your messages will be replied instantly.</p>
+                <p>our social media accounts helps you to teach us from wherever you are. your messages will be replied instantly.</p><br /><br />
                  <footer class="bg-dark text-white text-center p-4 ">
         <b >Developed by Mutheu &copy;2026. All rights Reserved.</b>
       </footer>
